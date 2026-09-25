@@ -55,3 +55,6 @@ body{
     font-weight: bold;
     color: #1e3c72;
 }
+.list{
+      list-style-image: url(../images/check.png);
+}
