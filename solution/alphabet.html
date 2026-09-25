@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <title>L'alphabet</title>
     <link rel="stylesheet" href="../css/style.css">
+    <style>
+        #list>li{
+      list-style-image: url(../images/check.png);
+}
+#none>circle{
+        list-style: circle;
+
+    }
+     #dot{
+        list-style: disc;
+     }
+    
+    </style>
+    
+
 </head>
 <body>
     <div class="container">
@@ -14,10 +29,10 @@
     <ol class="card">
         <li>Les <strong>voyelles</strong>
             <p>Il y a 6 voyelles</p>
-            <ul>
+            <ul id="dot">
                 <li>a</li>
                 <li>e</li>
-                <li>i</li>
+                <li id="circle">i</li>
                 <li>o</li>
                 <li>u</li>
                 <li>y</li>
@@ -25,12 +40,12 @@
         </li>
         <li>Les <strong>consonnes</strong>:
             Il y a <em>20</em> consonnes
-            <ul>
-                <li class="list">b, c, d</li>
-                <li class="list">f,g,h</li>
-                <li>j,k,l,m,n</li>
-                <li class="list">p, q, r, s, t</li>
-                <li class="list">v,w,x,z</li>
+            <ul id="list">
+                <li >b, c, d</li>
+                <li >f,g,h</li>
+                <li >j,k,l,m,n</li>
+                <li >p, q, r, s, t</li>
+                <li >v,w,x,z</li>
             </ul>
         </li>
 <a href="../index.html">Retour à l'accueil </a>
